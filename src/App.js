@@ -54,7 +54,7 @@ class App extends React.Component {
     render() {
         //Conditional rendering for "Loading..." text
         return this.state.isLoaded ? (
-            <div class="product-list">
+            <div className="product-list">
                 <label>Search Products</label>
                 <input
                     type="text"
